@@ -1,0 +1,22 @@
+{
+  "name": "mu-components",
+  "version": "1.0.0",
+  "description": "Web component library for the Marshall University Marsha Theme",
+  "main": "index.js",
+  "scripts": {
+	"test": "echo \"Error: no test specified\" && exit 1",
+	"dev": "NODE_ENV=development webpack --progress --hide-modules",
+    "watch": "NODE_ENV=development webpack --watch --progress --hide-modules",
+    "hot": "NODE_ENV=development webpack-dev-server --inline --hot",
+    "production": "NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "author": "Christopher McComas",
+  "license": "ISC",
+  "dependencies": {
+    "lit-element": "^2.4.0"
+  },
+  "devDependencies": {
+    "laravel-mix": "^6.0.10",
+    "postcss": "^8.2.4"
+  }
+}
