@@ -98,7 +98,7 @@ class MuHeader extends LitElement {
 											<a href="https://www.marshall.edu/brandguide/" class="text-white text-sm">Branding Guidelines</a>
 										</div>
 										<div class="block mt-1">
-											<a href="https://www.marshall.edu/website/" class="text-white text-sm">Web Guidelines</a>
+											<a href="https://www.marshall.edu/marsha/" class="text-white text-sm">Web Guidelines</a>
 										</div>
 										<div class="block mt-1">
 											<a href="https://www.marshall.edu/ucomm/" class="text-white text-sm">University Communications</a>
