@@ -357,9 +357,9 @@ class MuHeader extends LitElement {
 								<div class="arrow-top-sm black-arrow-top lg:invisible lg:group-hover:visible"></div>
 								<span class="flex-1 flex items-center -mt-3">Apply</span>
 							</a>
-							<a href="https://www.marshall.edu/recruitment/" class="hidden lg:flex lg:flex-col text-white transition-colors duration-75 hover:bg-green-dark font-semibold text-shadow px-0 lg:px-3 xl:px-4 mr-0 group">
+							<a href="https://www.marshall.edu/experience/" class="hidden lg:flex lg:flex-col text-white transition-colors duration-75 hover:bg-green-dark font-semibold text-shadow px-0 lg:px-3 xl:px-4 mr-0 group">
 								<div class="arrow-top-sm black-arrow-top lg:invisible lg:group-hover:visible"></div>
-								<span class="flex-1 flex items-center -mt-3">Learn More</span>
+								<span class="flex-1 flex items-center -mt-3">Experience MU</span>
 							</a>
 							<a href="https://www.marshall.edu/tour/" class="hidden lg:flex lg:flex-col text-white transition-colors duration-75 hover:bg-green-dark font-semibold text-shadow px-0 lg:px-3 xl:px-4 mr-0 group">
 								<div class="arrow-top-sm black-arrow-top lg:invisible lg:group-hover:visible"></div>
@@ -628,7 +628,7 @@ class MuHeader extends LitElement {
 							</div>
 						</div>
 					</div>
-					<div class="block bg-gray-900 absolute w-full z-60 shadow-lg text-white" x-show="megaOpen == 2" x-on:mouseenter="megaOpen = 2" x-on:mouseleave="megaOpen = 0" x-cloak>
+					<div class="block bg-gray-900 absolute w-full z-60 shadow-lg text-white" x-show="megaOpen == 2" x-on:mouseenter="megaOpen = 2" x-on:mouseleave="megaOpen = 0" style="display: none;">
 						<div class="flex flex-col">
 							<div class="arrow-top white-arrow-top"></div>
 							<div class="w-full xl:max-w-screen-xl px-6 xl:px-0 mx-auto py-10">
@@ -638,7 +638,7 @@ class MuHeader extends LitElement {
 										<div class="block flex-1 text-center text-white tracking-wide h-1 mb-2 bg-repeat-x" style="background-image: url('//www.marshall.edu/assets/images/grey-lighter-dot.svg');"></div>
 										<div class="uppercase text-sm xl:text-base">
 											<div class="block mb-4">
-												<a href="https://www.marshall.edu/admissions/freshmen/" class="text-white hover:text-green-bright group flex items-center transition-colors duration-100 ease-in cursor-pointer group hover:no-underline">
+												<a href="https://www.marshall.edu/admissions/undergraduate/freshmen/" class="text-white hover:text-green-bright group flex items-center transition-colors duration-100 ease-in cursor-pointer group hover:no-underline">
 													<span>First-Year Freshmen</span>
 													<svg class="opacity-0 transition-all ease-out duration-200 transform ml-1 h-3 w-3 text-green-dark group-hover:opacity-100 group-hover:translate-x-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
 														<path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path>
@@ -649,7 +649,7 @@ class MuHeader extends LitElement {
 												</a>
 											</div>
 											<div class="block mb-4">
-												<a href="https://www.marshall.edu/admissions/transfer-students/" class="text-white hover:text-green-bright group flex items-center transition-colors duration-100 ease-in cursor-pointer group hover:no-underline">
+												<a href="https://www.marshall.edu/admissions/undergraduate/transfer/" class="text-white hover:text-green-bright group flex items-center transition-colors duration-100 ease-in cursor-pointer group hover:no-underline">
 													<span>Transfer Students</span>
 													<svg class="opacity-0 transition-all ease-out duration-200 transform ml-1 h-3 w-3 text-green-dark group-hover:opacity-100 group-hover:translate-x-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
 														<path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path>
@@ -660,8 +660,8 @@ class MuHeader extends LitElement {
 												</a>
 											</div>
 											<div class="block mb-4">
-												<a href="https://www.marshall.edu/admissions/international/" class="text-white hover:text-green-bright group flex items-center transition-colors duration-100 ease-in cursor-pointer group hover:no-underline">
-													<span>International Students</span>
+												<a href="http://www.marshall.edu/admissions/international-undergraduate/" class="text-white hover:text-green-bright group flex items-center transition-colors duration-100 ease-in cursor-pointer group hover:no-underline">
+													<span>International Undergraduate Students</span>
 													<svg class="opacity-0 transition-all ease-out duration-200 transform ml-1 h-3 w-3 text-green-dark group-hover:opacity-100 group-hover:translate-x-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
 														<path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path>
 													</svg>
@@ -671,8 +671,19 @@ class MuHeader extends LitElement {
 												</a>
 											</div>
 											<div class="block mb-4">
-												<a href="http://www.marshall.edu/graduate/" class="text-white hover:text-green-bright group flex items-center transition-colors duration-100 ease-in cursor-pointer group hover:no-underline">
+												<a href="http://www.marshall.edu/admissions/graduate/" class="text-white hover:text-green-bright group flex items-center transition-colors duration-100 ease-in cursor-pointer group hover:no-underline">
 													<span>Graduate Students</span>
+													<svg class="opacity-0 transition-all ease-out duration-200 transform ml-1 h-3 w-3 text-green-dark group-hover:opacity-100 group-hover:translate-x-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+														<path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path>
+													</svg>
+													<svg class="opacity-0 transition-all ease-out duration-200 transform -ml-1 h-3 w-3 text-green-bright group-hover:opacity-100 group-hover:translate-x-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+														<path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path>
+													</svg>
+												</a>
+											</div>
+											<div class="block mb-4">
+												<a href="http://www.marshall.edu/admissions/international-graduate/" class="text-white hover:text-green-bright group flex items-center transition-colors duration-100 ease-in cursor-pointer group hover:no-underline">
+													<span>International Graduate Students</span>
 													<svg class="opacity-0 transition-all ease-out duration-200 transform ml-1 h-3 w-3 text-green-dark group-hover:opacity-100 group-hover:translate-x-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
 														<path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path>
 													</svg>
@@ -698,6 +709,17 @@ class MuHeader extends LitElement {
 										<div class="font-serif text-xl xl:text-2xl font-semibold border-gray-500 pb-2">Getting Started</div>
 										<div class="block flex-1 text-center text-white tracking-wide h-1 mb-2 bg-repeat-x" style="background-image: url('//www.marshall.edu/assets/images/grey-lighter-dot.svg');"></div>
 										<div class="uppercase text-sm xl:text-base">
+										<div class="block mb-4">
+												<a href="https://www.marshall.edu/experience/" class="text-white hover:text-green-bright group flex items-center transition-colors duration-100 ease-in cursor-pointer group hover:no-underline">
+													<span>Experience Marshall</span>
+													<svg class="opacity-0 transition-all ease-out duration-200 transform ml-1 h-3 w-3 text-green-dark group-hover:opacity-100 group-hover:translate-x-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+														<path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path>
+													</svg>
+													<svg class="opacity-0 transition-all ease-out duration-200 transform -ml-1 h-3 w-3 text-green-bright group-hover:opacity-100 group-hover:translate-x-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+														<path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path>
+													</svg>
+												</a>
+											</div>
 											<div class="block mb-4">
 												<a href="https://www.marshall.edu/recruitment/tour-our-campus/" class="text-white hover:text-green-bright group flex items-center transition-colors duration-100 ease-in cursor-pointer group hover:no-underline">
 													<span>Visit Campus</span>
@@ -721,7 +743,7 @@ class MuHeader extends LitElement {
 												</a>
 											</div>
 											<div class="block mb-4">
-												<a href="https://www.marshall.edu/sfa/" class="text-white hover:text-green-bright group flex items-center transition-colors duration-100 ease-in cursor-pointer group hover:no-underline">
+												<a href="http://www.marshall.edu/sfa/" class="text-white hover:text-green-bright group flex items-center transition-colors duration-100 ease-in cursor-pointer group hover:no-underline">
 													<span>Apply for Financial Aid</span>
 													<svg class="opacity-0 transition-all ease-out duration-200 transform ml-1 h-3 w-3 text-green-dark group-hover:opacity-100 group-hover:translate-x-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
 														<path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path>
@@ -738,7 +760,7 @@ class MuHeader extends LitElement {
 										<div class="block flex-1 text-center text-white tracking-wide h-1 mb-2 bg-repeat-x" style="background-image: url('//www.marshall.edu/assets/images/grey-lighter-dot.svg');"></div>
 										<div class="uppercase text-sm xl:text-base">
 											<div class="block mb-4">
-												<a href="https://www.marshall.edu/tuition/" class="text-white hover:text-green-bright group flex items-center transition-colors duration-100 ease-in cursor-pointer group hover:no-underline">
+												<a href="http://www.marshall.edu/tuition/" class="text-white hover:text-green-bright group flex items-center transition-colors duration-100 ease-in cursor-pointer group hover:no-underline">
 													<span>Tuition</span>
 													<svg class="opacity-0 transition-all ease-out duration-200 transform ml-1 h-3 w-3 text-green-dark group-hover:opacity-100 group-hover:translate-x-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
 														<path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path>
@@ -760,7 +782,7 @@ class MuHeader extends LitElement {
 												</a>
 											</div>
 											<div class="block mb-4">
-												<a href="https://www.marshall.edu/sfa/" class="text-white hover:text-green-bright group flex items-center transition-colors duration-100 ease-in cursor-pointer group hover:no-underline">
+												<a href="http://www.marshall.edu/sfa/" class="text-white hover:text-green-bright group flex items-center transition-colors duration-100 ease-in cursor-pointer group hover:no-underline">
 													<span>Financial Aid</span>
 													<svg class="opacity-0 transition-all ease-out duration-200 transform ml-1 h-3 w-3 text-green-dark group-hover:opacity-100 group-hover:translate-x-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
 														<path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path>
@@ -771,7 +793,7 @@ class MuHeader extends LitElement {
 												</a>
 											</div>
 											<div class="block mb-4">
-												<a href="https://www.marshall.edu/sfa/types-of-aid/" class="text-white hover:text-green-bright group flex items-center transition-colors duration-100 ease-in cursor-pointer group hover:no-underline">
+												<a href="http://www.marshall.edu/sfa/types-of-aid/" class="text-white hover:text-green-bright group flex items-center transition-colors duration-100 ease-in cursor-pointer group hover:no-underline">
 													<span>Scholarships</span>
 													<svg class="opacity-0 transition-all ease-out duration-200 transform ml-1 h-3 w-3 text-green-dark group-hover:opacity-100 group-hover:translate-x-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
 														<path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path>
@@ -782,7 +804,7 @@ class MuHeader extends LitElement {
 												</a>
 											</div>
 											<div class="block mb-4">
-												<a href="https://www.marshall.edu/sfa/cost-of-attendance/" class="text-white hover:text-green-bright group flex items-center transition-colors duration-100 ease-in cursor-pointer group hover:no-underline">
+												<a href="http://www.marshall.edu/sfa/cost-of-attendance/" class="text-white hover:text-green-bright group flex items-center transition-colors duration-100 ease-in cursor-pointer group hover:no-underline">
 													<span>Estimate Your Cost</span>
 													<svg class="opacity-0 transition-all ease-out duration-200 transform ml-1 h-3 w-3 text-green-dark group-hover:opacity-100 group-hover:translate-x-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
 														<path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path>
