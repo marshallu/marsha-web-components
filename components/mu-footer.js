@@ -9,7 +9,7 @@ class MuFooter extends LitElement {
 			<div class="w-full xl:max-w-screen-xl lg:px-8 xl:px-0 xl:mx-auto flex flex-col-reverse lg:flex-row mb-0">
 				<div class="text-center justify-end lg:text-left w-full lg:w-1/5 xl:w-1/6 lg:bg-inherit px-4 text-white text-sm leading-normal mt-0 pb-12 lg:pb-6 antialiased lg:bg-no-repeat bg-cover bg-inherit footer-flag">
 					<div class="lg:h-full lg:flex lg:justify-end lg:flex-col">
-						<a href="https://www.marshall.edu" aria-label="Marshall University website"><img src="//www.marshall.edu/assets/images/m_primary.svg" class="lg:hidden h-12 lg:h-16 mt-8 mb-4 inline w-auto" alt="Marshall University logo"></a>
+						<a href="https://www.marshall.edu" aria-label="Marshall University website"><img src="https://www.marshall.edu/wp-content/themes/marsha/images/m_primary.svg" class="lg:hidden h-12 lg:h-16 mt-8 mb-4 inline w-auto" alt="Marshall University logo"></a>
 
 						<div class="mt-8 lg:mt-6 flex mx-auto px-16 lg:px-0 w-full justify-between lg:justify-between">
 							<a href="http://www.instagram.com/marshallu" class="text-white transition-all duration-100 hover:-mt-1">

@@ -19,7 +19,7 @@ class MuHeaderMinimal extends LitElement {
 			<div>
 				<div class="bg-white w-full">
         	<div class="container mx-auto flex justify-between items-center px-4 xl:px-0 h-full py-4">
-						<a href="https://www.marshall.edu/" aria-label="Marshall University website"><img src="//www.marshall.edu/assets/images/m_primary.svg" class="h-12 xl:h-16" alt="Marshall University logo"></a>
+						<a href="https://www.marshall.edu/" aria-label="Marshall University website"><img src="https://www.marshall.edu/wp-content/themes/marsha/images/m_primary.svg" class="h-12 xl:h-16" alt="Marshall University logo"></a>
 					</div>
 				</div>
 			</div>
