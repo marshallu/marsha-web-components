@@ -42,14 +42,14 @@ class MuHeader extends LitElement {
 		<div class="absolute inset-0 w-full h-full bg-gradient-to-t from-black-70 via-black-30 to-transparent">
 			<div class="flex flex-col h-full justify-end">
 				<div class="font-serif text-white uppercase text-3xl lg:text-5xl w-full xl:max-w-screen-xl px-6 lg:px-10 xl:px-0 xl:mx-auto leading-snug mb-4 lg:mb-6">
-					<a href="${this.href}" class="text-white hover:text-white text-shadow-strong font-semibold">${this.title}</a>
+					<a href="${this.href}" class="text-white hover:text-white text-shadow-strong font-semibold no-underline">${this.title}</a>
 				</div>
 			</div>
 		</div>
 	</div>` :
 	 html`<div class="bg-gray-800 text-white py-0 px-0">
 			<div class="font-serif text-white uppercase text-2xl lg:text-5xl h-full w-full xl:max-w-screen-xl px-6 lg:px-10 xl:px-0 xl:mx-auto flex flex-col justify-center py-6">
-				<a href="${this.href}" class="text-white hover:text-white">${this.title}</a>
+				<a href="${this.href}" class="text-white hover:text-white no-underline">${this.title}</a>
 			</div>
 		</div>
 		` }

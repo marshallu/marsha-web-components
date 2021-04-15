@@ -6,15 +6,15 @@ class MuNavGreen extends LitElement {
 			<div class="bg-white border-t-4 border-green antialiased relative z-80 text-base">
 				<div class="w-full xl:max-w-screen-xl px-4 lg:px-10 xl:px-0 xl:mx-auto flex uppercase justify-between items-center tracking-wide antialiased  lg:h-20">
 					<div class="hidden lg:flex h-full">
-					<a href="https://www.marshall.edu/admissions/apply/" class="hidden lg:flex lg:flex-col text-gray-500 transition-colors duration-75 hover:bg-gray-100 hover:text-gray-900 font-semibold text-shadow px-0 lg:px-3 xl:px-4 mr-0 group focus:bg-gray-100">
+					<a href="https://www.marshall.edu/admissions/apply/" class="hidden lg:flex lg:flex-col text-gray-500 transition-colors duration-75 hover:bg-gray-100 hover:text-gray-900 font-semibold text-shadow px-0 lg:px-3 xl:px-4 mr-0 group focus:bg-gray-100 no-underline">
 							<div class="arrow-top-sm green-arrow-top lg:invisible lg:group-hover:visible"></div>
 							<span class="flex-1 flex items-center -mt-3 font-semibold text-lg">Apply</span>
 						</a>
-						<a href="https://www.marshall.edu/experience/" class="hidden lg:flex lg:flex-col text-gray-500 transition-colors duration-75 hover:bg-gray-100 hover:text-gray-900 font-semibold text-shadow px-0 lg:px-3 xl:px-4 mr-0 group focus:bg-gray-100">
+						<a href="https://www.marshall.edu/experience/" class="hidden lg:flex lg:flex-col text-gray-500 transition-colors duration-75 hover:bg-gray-100 hover:text-gray-900 font-semibold text-shadow px-0 lg:px-3 xl:px-4 mr-0 group focus:bg-gray-100 no-underline">
 							<div class="arrow-top-sm green-arrow-top lg:invisible lg:group-hover:visible"></div>
 							<span class="flex-1 flex items-center -mt-3 font-semibold text-lg">Experience MU</span>
 						</a>
-						<a href="https://www.marshall.edu/tour/" class="hidden lg:flex lg:flex-col text-gray-500 transition-colors duration-75 hover:bg-gray-100 hover:text-gray-900 font-semibold text-shadow px-0 lg:px-3 xl:px-4 mr-0 group focus:bg-gray-100">
+						<a href="https://www.marshall.edu/tour/" class="hidden lg:flex lg:flex-col text-gray-500 transition-colors duration-75 hover:bg-gray-100 hover:text-gray-900 font-semibold text-shadow px-0 lg:px-3 xl:px-4 mr-0 group focus:bg-gray-100 no-underline">
 							<div class="arrow-top-sm green-arrow-top lg:invisible lg:group-hover:visible"></div>
 							<span class="flex-1 flex items-center lg:-mt-3 font-semibold text-lg">Visit</span>
 						</a>
@@ -50,15 +50,15 @@ class MuNavGreen extends LitElement {
 								</div>
 							</div>
 						</div>
-						<a href="https://www.marshall.edu/rises/" class="hidden lg:flex lg:flex-col text-gray-500 transition-colors duration-75 hover:bg-gray-100 hover:text-gray-900 font-semibold text-shadow px-0 lg:px-3 xl:px-4 mr-0 group focus:bg-gray-100">
+						<a href="https://www.marshall.edu/rises/" class="hidden lg:flex lg:flex-col text-gray-500 transition-colors duration-75 hover:bg-gray-100 hover:text-gray-900 font-semibold text-shadow px-0 lg:px-3 xl:px-4 mr-0 group focus:bg-gray-100 no-underline">
 							<div class="arrow-top-sm green-arrow-top lg:invisible lg:group-hover:visible"></div>
 							<span class="flex-1 flex items-center -mt-3 font-semibold text-lg">Give</span>
 						</a>
-						<a href="https://www.marshall.edu/design-center/?utm_source=nav-green&amp;utm_medium=website&amp;utm_campaign=blackboard" class="py-4 lg:py-0 lg:flex lg:flex-col text-gray-500 transition-colors duration-75 hover:bg-gray-100 hover:text-gray-900 font-semibold text-shadow px-0 lg:px-3 xl:px-4 mr-0 group focus:bg-gray-100">
+						<a href="https://www.marshall.edu/design-center/?utm_source=nav-green&amp;utm_medium=website&amp;utm_campaign=blackboard" class="py-4 lg:py-0 lg:flex lg:flex-col text-gray-500 transition-colors duration-75 hover:bg-gray-100 hover:text-gray-900 font-semibold text-shadow px-0 lg:px-3 xl:px-4 mr-0 group focus:bg-gray-100 no-underline">
 							<div class="hidden lg:flex arrow-top-sm green-arrow-top lg:invisible lg:group-hover:visible"></div>
 							<span class="flex-1 flex items-center lg:-mt-3 font-semibold lg:text-lg">Blackboard</span>
 						</a>
-						<a href="http://mymu.marshall.edu" class="py-4 lg:py-0 lg:flex lg:flex-col text-gray-500 transition-colors duration-75 hover:bg-gray-100 hover:text-gray-900 font-semibold text-shadow px-0 lg:px-3 xl:px-4 mr-0 group focus:bg-gray-100">
+						<a href="http://mymu.marshall.edu" class="py-4 lg:py-0 lg:flex lg:flex-col text-gray-500 transition-colors duration-75 hover:bg-gray-100 hover:text-gray-900 font-semibold text-shadow px-0 lg:px-3 xl:px-4 mr-0 group focus:bg-gray-100 no-underline">
 							<div class="hidden lg:flex arrow-top-sm green-arrow-top lg:invisible lg:group-hover:visible"></div>
 							<span class="flex-1 flex items-center lg:-mt-3 font-semibold lg:text-lg">MyMU</span>
 						</a>
