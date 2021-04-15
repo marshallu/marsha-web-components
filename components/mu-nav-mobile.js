@@ -23,13 +23,8 @@ class MuNavMobile extends LitElement {
 								<li class="block w-full font-semibold" x-data="{ open: false }">
 									<a href="#" class="text-white flex items-center justify-between px-4 border-b border-gray-900 py-4 no-underline" x-on:click.prevent="open = !open">
 										<span class="uppercase">Meet Marshall</span>
-										<div class="flex items-center transition-all duration-75 ease-linear" :class="{ 'transform rotate-90': open }">
-											<svg class="ml-1 h-4 w-4 text-green-dark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-												<path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path>
-											</svg>
-											<svg class="-ml-2 h-4 w-4 text-green-bright" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-												<path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path>
-											</svg>
+										<div class="flex items-center transition-all duration-75 ease-linear">
+											<svg :class="{ '-rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
 										</div>
 									</a>
 									<div class="bg-gray-900 w-full py-4 px-4 text-white font-normal flex flex-col" x-show="open" style="display: none;">
@@ -92,13 +87,8 @@ class MuNavMobile extends LitElement {
 								<li class="block w-full font-semibold" x-data="{ open: false }">
 									<a href="#" class="text-white flex items-center justify-between px-4 border-b border-gray-900 py-4 no-underline" x-on:click.prevent="open = !open">
 										<span class="uppercase">Admissions &amp; Aid</span>
-										<div class="flex items-center transition-all duration-75 ease-linear" :class="{ 'transform rotate-90': open }">
-											<svg class="ml-1 h-4 w-4 text-green-dark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-												<path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path>
-											</svg>
-											<svg class="-ml-2 h-4 w-4 text-green-bright" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-												<path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path>
-											</svg>
+										<div class="flex items-center transition-all duration-75 ease-linear">
+											<svg :class="{ '-rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
 										</div>
 									</a>
 									<div class="bg-gray-900 w-full py-4 px-4 text-white font-normal flex flex-col" x-show="open" style="display: none;">
@@ -173,13 +163,8 @@ class MuNavMobile extends LitElement {
 								<li class="block w-full font-semibold" x-data="{ open: false }">
 									<a href="#" class="text-white flex items-center justify-between px-4 border-b border-gray-900 py-4 no-underline" x-on:click.prevent="open = !open">
 										<span class="uppercase">Academics</span>
-										<div class="flex items-center transition-all duration-75 ease-linear" :class="{ 'transform rotate-90': open }">
-											<svg class="ml-1 h-4 w-4 text-green-dark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-												<path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path>
-											</svg>
-											<svg class="-ml-2 h-4 w-4 text-green-bright" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-												<path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path>
-											</svg>
+										<div class="flex items-center transition-all duration-75 ease-linear">
+											<svg :class="{ '-rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
 										</div>
 									</a>
 									<div class="bg-gray-900 w-full py-4 px-4 text-white font-normal flex flex-col" x-show="open" style="display: none;">
@@ -248,13 +233,8 @@ class MuNavMobile extends LitElement {
 								<li class="block w-full font-semibold" x-data="{ open: false }">
 									<a href="#" class="text-white flex items-center justify-between px-4 border-b border-gray-900 py-4 no-underline" x-on:click.prevent="open = !open">
 										<span class="uppercase">Marshall Life</span>
-										<div class="flex items-center transition-all duration-75 ease-linear" :class="{ 'transform rotate-90': open }">
-											<svg class="ml-1 h-4 w-4 text-green-dark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-												<path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path>
-											</svg>
-											<svg class="-ml-2 h-4 w-4 text-green-bright" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-												<path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path>
-											</svg>
+										<div class="flex items-center transition-all duration-75 ease-linear">
+											<svg :class="{ '-rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
 										</div>
 									</a>
 									<div class="bg-gray-900 w-full py-4 px-4 text-white font-normal flex flex-col" x-show="open" style="display: none;">

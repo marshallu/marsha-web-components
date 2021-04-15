@@ -42,11 +42,11 @@ class MuNavGreen extends LitElement {
 									</svg>
 								</div>
 								<div class="dropdown-nav transition-all duration-500 ease-in-out absolute left-0 w-60 bg-gray-100 text-sm uppercase tracking-wide shadow-md font-semibold text-shadow z-80 divide-y divide-gray-200 invisible opacity-0 hidden group-hover:visible group-hover:opacity-100 group-hover:block group-focus:visible group-focus:opacity-100 group-focus:block">
-									<a href="https://www.marshall.edu/future-students/" class="text-gray-500 block py-4 px-4 transition-colors duration-200 hover:bg-white hover:text-gray-900 focus:bg-white focus:text-gray-900">Future Students</a>
-									<a href="https://www.marshall.edu/current-students/" class="text-gray-500 block py-4 px-4 transition-colors duration-200 hover:bg-white hover:text-gray-900 focus:bg-white focus:text-gray-900">Current Students</a>
-									<a href="https://www.marshall.edu/parents/" class="text-gray-500 block py-4 px-4 transition-colors duration-200 hover:bg-white hover:text-gray-900 focus:bg-white focus:text-gray-900">Parents &amp; Families</a>
-									<a href="http://www.herdalum.com" class="text-gray-500 block py-4 px-4 transition-colors duration-200 hover:bg-white hover:text-gray-900 focus:bg-white focus:text-gray-900">Alumni &amp; Friends</a>
-									<a href="https://www.marshall.edu/faculty-staff/" class="text-gray-500 block py-4 px-4 transition-colors duration-200 hover:bg-white hover:text-gray-900 focus:bg-white focus:text-gray-900">Faculty &amp; Staff</a>
+									<a href="https://www.marshall.edu/future-students/" class="text-gray-500 block py-4 px-4 transition-colors duration-200 hover:bg-white hover:text-gray-900 focus:bg-white focus:text-gray-900 no-underline">Future Students</a>
+									<a href="https://www.marshall.edu/current-students/" class="text-gray-500 block py-4 px-4 transition-colors duration-200 hover:bg-white hover:text-gray-900 focus:bg-white focus:text-gray-900 no-underline">Current Students</a>
+									<a href="https://www.marshall.edu/parents/" class="text-gray-500 block py-4 px-4 transition-colors duration-200 hover:bg-white hover:text-gray-900 focus:bg-white focus:text-gray-900 no-underline">Parents &amp; Families</a>
+									<a href="http://www.herdalum.com" class="text-gray-500 block py-4 px-4 transition-colors duration-200 hover:bg-white hover:text-gray-900 focus:bg-white focus:text-gray-900 no-underline">Alumni &amp; Friends</a>
+									<a href="https://www.marshall.edu/faculty-staff/" class="text-gray-500 block py-4 px-4 transition-colors duration-200 hover:bg-white hover:text-gray-900 focus:bg-white focus:text-gray-900 no-underline">Faculty &amp; Staff</a>
 								</div>
 							</div>
 						</div>
