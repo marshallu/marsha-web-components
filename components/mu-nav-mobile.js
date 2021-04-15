@@ -21,7 +21,7 @@ class MuNavMobile extends LitElement {
 							</div>
 							<ul class="pl-0">
 								<li class="block w-full font-semibold" x-data="{ open: false }">
-									<a href="#" class="text-white flex items-center justify-between px-4 border-b border-gray-900 py-4 no-underline" x-on:click.prevent="open = !open">
+									<a href="#" class="text-white flex items-center justify-between px-4 border-b border-gray-900 py-4 no-underline hover:text-green-bright active:text-green-bright" x-on:click.prevent="open = !open">
 										<span class="uppercase">Meet Marshall</span>
 										<div class="flex items-center transition-all duration-75 ease-linear">
 											<svg :class="{ '-rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
@@ -85,7 +85,7 @@ class MuNavMobile extends LitElement {
 									</div>
 								</li>
 								<li class="block w-full font-semibold" x-data="{ open: false }">
-									<a href="#" class="text-white flex items-center justify-between px-4 border-b border-gray-900 py-4 no-underline" x-on:click.prevent="open = !open">
+									<a href="#" class="text-white flex items-center justify-between px-4 border-b border-gray-900 py-4 no-underline hover:text-green-bright active:text-green-bright" x-on:click.prevent="open = !open">
 										<span class="uppercase">Admissions &amp; Aid</span>
 										<div class="flex items-center transition-all duration-75 ease-linear">
 											<svg :class="{ '-rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
@@ -161,7 +161,7 @@ class MuNavMobile extends LitElement {
 									</div>
 								</li>
 								<li class="block w-full font-semibold" x-data="{ open: false }">
-									<a href="#" class="text-white flex items-center justify-between px-4 border-b border-gray-900 py-4 no-underline" x-on:click.prevent="open = !open">
+									<a href="#" class="text-white flex items-center justify-between px-4 border-b border-gray-900 py-4 no-underline hover:text-green-bright active:text-green-bright" x-on:click.prevent="open = !open">
 										<span class="uppercase">Academics</span>
 										<div class="flex items-center transition-all duration-75 ease-linear">
 											<svg :class="{ '-rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
@@ -231,7 +231,7 @@ class MuNavMobile extends LitElement {
 									</div>
 								</li>
 								<li class="block w-full font-semibold" x-data="{ open: false }">
-									<a href="#" class="text-white flex items-center justify-between px-4 border-b border-gray-900 py-4 no-underline" x-on:click.prevent="open = !open">
+									<a href="#" class="text-white flex items-center justify-between px-4 border-b border-gray-900 py-4 no-underline hover:text-green-bright active:text-green-bright" x-on:click.prevent="open = !open">
 										<span class="uppercase">Marshall Life</span>
 										<div class="flex items-center transition-all duration-75 ease-linear">
 											<svg :class="{ '-rotate-180': open }" class="rotate-0 h-6 w-6 transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
