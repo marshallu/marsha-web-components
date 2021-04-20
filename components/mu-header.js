@@ -26,6 +26,7 @@ class MuHeader extends LitElement {
 
 	render() {
 		return html`
+		<link rel="stylesheet" href="//www.marshall.edu/wp-content/themes/marsha/css/marsha2.0.css">
 		<div x-data="{ mobileMenuOpen: false, megaOpen: 0, showSearch: false }">
 			<mu-nav-mobile></mu-nav-mobile>
 
@@ -53,53 +54,15 @@ class MuHeader extends LitElement {
 			</div>
 		</div>
 		` }
-			<div class="w-full hidden lg:block relative z-50">
+			<div class="w-full hidden lg:block">
 				<div class="w-full xl:max-w-screen-xl lg:px-10 xl:px-0 mx-auto bg-white">
-					<div class="nav-site">
-							<div class="nav-site-container">
-								<div id="menu-primary-navigation" class="nav-site">
-									<slot>
-										<div class="nav-item-container">
-											<a href="https://www.marshall.edu/history/" class="nav-site-parent">
-												<span>Home</span>
-											</a>
-										</div>
-										<div class="nav-item-container dropdown">
-											<a href="https://www.marshall.edu/history/undergraduate/" class="nav-site-parent">
-												<span class="mr-1">Dropdown</span>
-												<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="hidden lg:flex h-4 w-4 fill-current"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path></svg>
-											</a>
-											<div class="nav-site-dropdown-container dropdown-nav">
-												<div class="">
-													<a href="https://www.marshall.edu/" class="nav-site-dropdown-item">
-														<span class="mr-1">Dropdown Item #1</span>
-													</a>
-												</div>
-											</div>
-										</div>
-										<div class="nav-item-container">
-											<a href="https://www.marshall.edu/" class="nav-site-parent">
-												<span>Link #2</span>
-											</a>
-										</div>
-									</slot>
-								</div>
-							</div>
-						</div>
+					<div class="nav-site-container">
+						<slot class="nav-site"></slot>
 					</div>
 				</div>
 			</div>
 		</div>
-		<!-- END MOBILE NAV -->
 		`;
-	}
-
-	createRenderRoot() {
-		/**
-		* Render template without shadow DOM. Note that shadow DOM features like
-		* encapsulated CSS and slots are unavailable.
-		*/
-		return this;
 	}
 }
 customElements.define('mu-header', MuHeader);
